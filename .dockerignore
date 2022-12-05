@@ -1,0 +1,21 @@
+# Git
+.Git.gitignore
+
+# Docker
+.Docker
+Dockerfile
+docker-compose.yml
+
+# Python
+app_*/__pycache__/
+app_*/*/__pycache__/
+app_*/*/*/__pycache__/
+app_*/*/*/*/__pycache__/
+.env*
+.env/
+.venv/
+venv/
+*.sqlite3
+
+# Project
+proxy/
